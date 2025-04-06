@@ -7,7 +7,7 @@ from pyrogram.types import (CallbackQuery, InlineKeyboardButton,
                             InlineKeyboardMarkup, Message)
 from pyrogram.enums import ChatType
 
-from spr import BOT_USERNAME, conn, session, spr
+from config import BOT_USERNAME=odsantispambot
 from spr.core import ikb
 from spr.modules import MODULES
 from spr.utils.misc import once_a_day, once_a_minute, paginate_modules
