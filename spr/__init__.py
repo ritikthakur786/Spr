@@ -18,6 +18,10 @@ if exists("config.py"):
 else:
     from sample_config import *
 
+
+session = ClientSession()
+
+
 # SQLite DB Connection
 conn = connect(DB_NAME)
 
